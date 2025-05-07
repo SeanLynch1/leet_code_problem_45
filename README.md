@@ -23,4 +23,4 @@ Output: 2
 ## My inital Solution
 After solving LeetCode Problem 55 (Jump Game) and realizing the effectiveness of the greedy algorithm, I attempted to apply a similar approach to this problem. I used the same idea of making local optimal decisions at each index, but my implementation wasn't fully greedy. As a result, some indices could be revisited, leading to less efficient performance. My solution ultimately ranked in the 27th percentile for time complexity on LeetCode.
 
-While this approach was functional, I later realized that a truly greedy algorithm, which ensures each index is visited only once, could provide a more optimal solution. Below, I’ve included both my initial solution and the optimal solution that visits each index at most once.
+While this approach was functional, I later realized that a truly greedy algorithm, which ensures each index is visited only once, could provide a more optimal solution. In this repository, I’ve included both my initial solution and the optimal solution that visits each index at most once.
